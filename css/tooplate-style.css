@@ -1,9 +1,4 @@
 /*
-
-Template 2107 New Spot
-
-http://www.tooplate.com/view/2107-new-spot
-
 COLOR CODES
 
 	Primary (Pink):   #CC0064
@@ -17,11 +12,18 @@ COLOR CODES
 }
 
 body {
-  background-color: #eee;
+  background-color: #fff;
   color: #6c6c6c;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   overflow-x: hidden;
+}
+
+.header{
+    background: #fff;
+    height: 150px;
+    max-width: 1460px;
+    padding-left: 48px; 
 }
 
 .tm-container {
@@ -42,18 +44,18 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/spot-bg-01.jpg);
-  background-size: cover;
+  background-image: url(../img/natural.jpg);
+  background-size: inherit;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
-  /* background-position: center -95px; */
+  background-position: -20% 0;
   background-repeat: no-repeat;
   padding-top: 75px;
 }
 
 .tm-section-3 {
   height: 790px;
-  background-image: url(../img/spot-bg-02.jpg);
+  background-image: url(../img/booksOpen.jpeg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
@@ -272,3 +274,11 @@ a.btn:hover {
     margin-bottom: 30px;
   }
 }
+
+/* TODO: Menu Header for site
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+*/
