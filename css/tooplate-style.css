@@ -44,7 +44,7 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/natural.jpg);
+  background-image: url(../img/consults_wide.jpg);
   background-size: inherit;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
@@ -70,6 +70,10 @@ body {
 
 .tm-color-secondary {
   color: #0095bf;
+}
+
+.uc-color-primary {
+    color: #eb268d;
 }
 
 .tm-btn-primary {
